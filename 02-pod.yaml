@@ -5,9 +5,14 @@ metadata:
   name: nginx
   namespace: roboshop
 
+  labels:
+    name: nginx
+    project: roboshop
+    environment: dev
+
 spec:
   containers:
     - name: nginx
       image: nginx
       ports:
-      - containerPort: 80
+        containerPort: 80
