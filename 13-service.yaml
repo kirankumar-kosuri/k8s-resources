@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: service-demo
 spec:
-  selectors:
+  selector:
     project: roboshop
     environment: prod
     component: frontend
