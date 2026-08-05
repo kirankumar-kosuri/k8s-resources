@@ -6,5 +6,4 @@ metadata:
 
   labels:
     project: roboshop
-    environment: dev
-    
+    environment: prod
