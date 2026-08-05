@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: service-np
 spec:
-  type: nodePort
+  type: NodePort
   selector:
     project: roboshop
     environment: dev
