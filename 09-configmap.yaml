@@ -3,9 +3,6 @@ kind: ConfigMap
 
 metadata:
   name: pod-config
-  
-  labels:
-    project: roboshop
 
 data:
   course: "DevSecOps with AWS"
