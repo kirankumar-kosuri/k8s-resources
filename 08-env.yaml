@@ -15,4 +15,4 @@ spec:
     - name: course
       value: "k8s"
     - name: trainer
-      value: kiran
+      value: kiran  
