@@ -13,8 +13,9 @@ spec:
       purpose: rs
   template:
     metadata:
-      project: roboshop
-      purpose: rs
+      labels:
+        project: roboshop
+        purpose: rs
     spec:
       containers:
       - name: nginx
